@@ -1,4 +1,19 @@
+body{
+  background-color: #161e2a;  //Outer purple, from chilltec.net;
+}
+#header{
+  text-align: center;
+  background-color: green;
+  margin-left: 10%;
+  margin-top: 10%;
+  width: 80%;
+  padding-bottom: 1px;
+}
 #main-container{
-  display: grid;
-  background-color: blue;
+  text-align: center; 
+  background-color: #141b28;  //Inner purple, from chilltec.net;
+  margin-left: 10%;
+  margin-top: -2%;
+  width: 80%;
+  height: 50%;
 }
