@@ -1,6 +1,22 @@
 body{
   background-color: #161e2a;  //Outer purple, from chilltec.net;
 }
+.entry{
+  display: flex;
+  flex-direction: row;
+  align-content: stretch;
+  border-bottom-style: solid;
+  border-color: #5c5457;
+}
+.img{
+  width: 33%;
+}
+.name{
+  width: 33%;
+}
+.content{
+  width: 33%;
+}
 #header{
   text-align: center;
   background-color: green;
@@ -10,7 +26,7 @@ body{
   padding-bottom: 1px;
 }
 #main-container{
-  text-align: center; 
+  //text-align: center; 
   background-color: #141b28;  //Inner purple, from chilltec.net;
   margin-left: 10%;
   margin-top: -2%;
