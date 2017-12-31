@@ -1,35 +1,57 @@
 body{
-  background-color: #161e2a;  //Outer purple, from chilltec.net;
+  background-color: #dddddd;
 }
 .entry{
   display: flex;
   flex-direction: row;
   align-content: stretch;
+  background-color: #323a41;
   border-bottom-style: solid;
   border-color: #5c5457;
 }
 .img{
-  width: 33%;
+  width: 15%;
+  border-style: none;
+  text-align: center;
 }
 .name{
-  width: 33%;
+  width: 30%;
+  color: #dddddd;
 }
 .content{
-  width: 33%;
+  width: 50%;
+}
+.logo{
+  border-radius: 100px;
+  width: 5em;
+  height; 5em;
+}
+.link{
+  color: #dddddd;
+  text-decoration: none;
+}
+.online{
+  color: #aaaaaa;
+}
+.offline{
+  color: #dddddd;
 }
 #header{
   text-align: center;
   background-color: green;
   margin-left: 10%;
-  margin-top: 10%;
+  margin-top: 5%;
   width: 80%;
   padding-bottom: 1px;
 }
 #main-container{
-  //text-align: center; 
-  background-color: #141b28;  //Inner purple, from chilltec.net;
+  text-align: center;
   margin-left: 10%;
   margin-top: -2%;
   width: 80%;
   height: 50%;
+}
+#footer{
+  text-align: center;
+  margin-top: 100px;
 }
